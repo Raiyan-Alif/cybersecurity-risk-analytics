@@ -118,6 +118,3 @@ Example output:
 
 Md. Raiyan Alam Alif  
 Student ID: CYS2302195
-
-```bash
-pip install -r requirements.txt
