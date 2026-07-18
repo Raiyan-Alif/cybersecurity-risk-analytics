@@ -1,0 +1,596 @@
+Country,Year Index,Attack Type,Target Industry,Financial Loss (in Million $),Number of Affected Users,actual_resolution_hours,predicted_resolution_hours,residual,absolute_error,prediction_direction
+Australia,2,DDoS,Education,31.74,724207,54.0,32.1645,21.8355,21.8355,Underprediction
+Australia,4,DDoS,Education,54.63,22739,44.0,34.2176,9.7824,9.7824,Underprediction
+Australia,1,DDoS,Education,93.39,630087,72.0,32.3309,39.6691,39.6691,Underprediction
+Australia,8,DDoS,Government,76.25,900661,64.0,37.5268,26.4732,26.4732,Underprediction
+Australia,0,DDoS,Government,13.96,479025,54.0,35.1918,18.8082,18.8082,Underprediction
+Australia,8,DDoS,Government,97.18,692900,72.0,35.1034,36.8966,36.8966,Underprediction
+Australia,0,DDoS,Government,11.89,731839,14.0,36.3667,-22.3667,22.3667,Overprediction
+Australia,0,DDoS,Healthcare,4.49,713160,26.0,36.3763,-10.3763,10.3763,Overprediction
+Australia,3,DDoS,Healthcare,90.4,536357,55.0,32.0962,22.9038,22.9038,Underprediction
+Australia,4,DDoS,IT,32.06,775033,8.0,35.5499,-27.5499,27.5499,Overprediction
+Australia,0,DDoS,IT,61.01,419127,26.0,33.1476,-7.1476,7.1476,Overprediction
+Australia,1,DDoS,Retail,2.96,990886,59.0,34.8062,24.1938,24.1938,Underprediction
+Australia,5,DDoS,Retail,31.36,449936,52.0,34.5031,17.4969,17.4969,Underprediction
+Australia,3,DDoS,Retail,40.0,152435,26.0,32.7865,-6.7865,6.7865,Overprediction
+Australia,3,DDoS,Telecommunications,25.07,732072,35.0,35.3635,-0.3635,0.3635,Overprediction
+Australia,5,Malware,Banking,42.3,497035,66.0,37.1114,28.8886,28.8886,Underprediction
+Australia,2,Malware,Banking,25.76,801821,18.0,34.6488,-16.6488,16.6488,Overprediction
+Australia,8,Malware,Education,67.23,362308,5.0,35.9377,-30.9377,30.9377,Overprediction
+Australia,7,Malware,Government,4.5,436928,34.0,37.8807,-3.8807,3.8807,Overprediction
+Australia,5,Malware,Government,35.96,982719,26.0,37.5395,-11.5395,11.5395,Overprediction
+Australia,6,Malware,Healthcare,10.35,776819,64.0,38.7688,25.2312,25.2312,Underprediction
+Australia,7,Malware,Healthcare,47.92,25905,40.0,38.2916,1.7084,1.7084,Underprediction
+Australia,0,Malware,Healthcare,42.15,680874,8.0,35.4934,-27.4934,27.4934,Overprediction
+Australia,8,Malware,Telecommunications,1.51,954902,55.0,41.6804,13.3196,13.3196,Underprediction
+Australia,3,Malware,Telecommunications,36.01,215231,49.0,38.4023,10.5977,10.5977,Underprediction
+Australia,7,Man-in-the-Middle,Banking,34.16,346224,64.0,34.61,29.39,29.39,Underprediction
+Australia,7,Man-in-the-Middle,Healthcare,81.31,707365,38.0,36.6777,1.3223,1.3223,Underprediction
+Australia,0,Man-in-the-Middle,Healthcare,1.62,336650,35.0,37.3888,-2.3888,2.3888,Overprediction
+Australia,9,Man-in-the-Middle,Healthcare,93.4,833819,14.0,37.5331,-23.5331,23.5331,Overprediction
+Australia,4,Man-in-the-Middle,Retail,15.21,677755,52.0,36.947,15.053,15.053,Underprediction
+Australia,8,Man-in-the-Middle,Telecommunications,66.91,156195,58.0,38.1493,19.8507,19.8507,Underprediction
+Australia,2,Man-in-the-Middle,Telecommunications,35.27,765929,16.0,35.1354,-19.1354,19.1354,Overprediction
+Australia,2,Phishing,Banking,90.5,42278,45.0,33.3116,11.6884,11.6884,Underprediction
+Australia,9,Phishing,Education,74.75,109907,5.0,34.3302,-29.3302,29.3302,Overprediction
+Australia,3,Phishing,Education,24.25,665381,61.0,36.508,24.492,24.492,Underprediction
+Australia,1,Phishing,Government,72.34,847817,13.0,36.1164,-23.1164,23.1164,Overprediction
+Australia,1,Phishing,Healthcare,53.81,279874,66.0,38.0083,27.9917,27.9917,Underprediction
+Australia,2,Phishing,Healthcare,39.3,290846,3.0,32.5466,-29.5466,29.5466,Overprediction
+Australia,4,Phishing,Retail,9.12,212267,14.0,35.7258,-21.7258,21.7258,Overprediction
+Australia,0,Phishing,Telecommunications,89.41,488342,23.0,37.4493,-14.4493,14.4493,Overprediction
+Australia,8,Phishing,Telecommunications,24.65,221512,56.0,37.0816,18.9184,18.9184,Underprediction
+Australia,9,Phishing,Telecommunications,42.28,297456,20.0,36.5086,-16.5086,16.5086,Overprediction
+Australia,7,Ransomware,Banking,32.56,979382,43.0,32.9419,10.0581,10.0581,Underprediction
+Australia,9,Ransomware,Education,44.95,500747,58.0,36.9429,21.0571,21.0571,Underprediction
+Australia,3,Ransomware,Education,50.66,851204,3.0,33.1269,-30.1269,30.1269,Overprediction
+Australia,7,Ransomware,Government,10.84,564944,58.0,36.7651,21.2349,21.2349,Underprediction
+Australia,7,Ransomware,Government,84.51,305494,19.0,35.8688,-16.8688,16.8688,Overprediction
+Australia,7,Ransomware,Government,92.07,819812,63.0,37.6889,25.3111,25.3111,Underprediction
+Australia,2,Ransomware,Government,27.38,918816,58.0,36.1795,21.8205,21.8205,Underprediction
+Australia,1,Ransomware,Healthcare,82.99,799581,50.0,34.852,15.148,15.148,Underprediction
+Australia,7,Ransomware,Healthcare,17.58,18399,14.0,34.2275,-20.2275,20.2275,Overprediction
+Australia,8,Ransomware,Retail,41.54,396865,42.0,36.7759,5.2241,5.2241,Underprediction
+Australia,6,Ransomware,Retail,41.26,659734,54.0,37.3399,16.6601,16.6601,Underprediction
+Australia,2,SQL Injection,Banking,7.21,526324,39.0,36.7543,2.2457,2.2457,Underprediction
+Australia,3,SQL Injection,Education,75.2,60868,46.0,34.3078,11.6922,11.6922,Underprediction
+Australia,3,SQL Injection,IT,65.08,417807,46.0,35.4519,10.5481,10.5481,Underprediction
+Australia,0,SQL Injection,Retail,55.78,852650,50.0,36.3783,13.6217,13.6217,Underprediction
+Australia,7,SQL Injection,Retail,56.62,310341,32.0,35.2123,-3.2123,3.2123,Overprediction
+Australia,4,SQL Injection,Retail,13.96,496667,45.0,36.1484,8.8516,8.8516,Underprediction
+Australia,7,SQL Injection,Telecommunications,56.2,571454,42.0,36.7169,5.2831,5.2831,Underprediction
+Brazil,6,DDoS,Banking,84.41,230110,51.0,33.4058,17.5942,17.5942,Underprediction
+Brazil,6,DDoS,Banking,96.23,649383,59.0,32.5613,26.4387,26.4387,Underprediction
+Brazil,0,DDoS,Banking,18.87,976838,65.0,31.925,33.075,33.075,Underprediction
+Brazil,7,DDoS,Education,17.68,366968,47.0,34.6363,12.3637,12.3637,Underprediction
+Brazil,4,DDoS,Education,44.51,119319,9.0,33.4452,-24.4452,24.4452,Overprediction
+Brazil,2,DDoS,Government,58.67,12372,29.0,36.5369,-7.5369,7.5369,Overprediction
+Brazil,2,DDoS,Government,18.69,131940,34.0,35.7688,-1.7688,1.7688,Overprediction
+Brazil,9,DDoS,Healthcare,92.34,375691,21.0,35.4823,-14.4823,14.4823,Overprediction
+Brazil,1,DDoS,IT,17.12,988369,26.0,36.9297,-10.9297,10.9297,Overprediction
+Brazil,6,DDoS,IT,70.26,740257,70.0,34.6794,35.3206,35.3206,Underprediction
+Brazil,2,DDoS,Retail,81.63,140371,13.0,36.8205,-23.8205,23.8205,Overprediction
+Brazil,5,DDoS,Retail,17.4,342253,22.0,35.0396,-13.0396,13.0396,Overprediction
+Brazil,3,DDoS,Telecommunications,69.83,587034,35.0,37.4502,-2.4502,2.4502,Overprediction
+Brazil,6,Malware,Education,74.37,298836,29.0,37.4231,-8.4231,8.4231,Overprediction
+Brazil,3,Malware,Education,6.3,661644,29.0,37.7681,-8.7681,8.7681,Overprediction
+Brazil,0,Malware,Education,37.54,49473,51.0,35.8732,15.1268,15.1268,Underprediction
+Brazil,0,Malware,Healthcare,88.08,905770,9.0,37.1351,-28.1351,28.1351,Overprediction
+Brazil,1,Malware,Healthcare,83.88,155059,29.0,38.5007,-9.5007,9.5007,Overprediction
+Brazil,0,Malware,IT,74.03,956965,40.0,40.4959,-0.4959,0.4959,Overprediction
+Brazil,0,Malware,IT,1.35,371048,56.0,39.9345,16.0655,16.0655,Underprediction
+Brazil,0,Malware,Retail,78.13,71743,35.0,41.2499,-6.2499,6.2499,Overprediction
+Brazil,3,Malware,Retail,83.42,538552,65.0,39.1442,25.8558,25.8558,Underprediction
+Brazil,4,Man-in-the-Middle,Banking,14.64,880671,66.0,36.3039,29.6961,29.6961,Underprediction
+Brazil,1,Man-in-the-Middle,Banking,70.89,378949,67.0,35.519,31.481,31.481,Underprediction
+Brazil,6,Man-in-the-Middle,Education,27.95,625370,24.0,35.863,-11.863,11.863,Overprediction
+Brazil,2,Man-in-the-Middle,Government,14.54,491794,4.0,38.8517,-34.8517,34.8517,Overprediction
+Brazil,4,Man-in-the-Middle,Healthcare,7.44,739981,54.0,36.7954,17.2046,17.2046,Underprediction
+Brazil,1,Man-in-the-Middle,Retail,72.78,11339,34.0,39.802,-5.802,5.802,Overprediction
+Brazil,7,Phishing,Banking,75.01,771434,38.0,36.5227,1.4773,1.4773,Underprediction
+Brazil,7,Phishing,Banking,98.06,884502,55.0,37.4368,17.5632,17.5632,Underprediction
+Brazil,8,Phishing,Banking,71.86,151590,30.0,34.5089,-4.5089,4.5089,Overprediction
+Brazil,4,Phishing,Government,70.6,817268,1.0,37.7926,-36.7926,36.7926,Overprediction
+Brazil,6,Phishing,Telecommunications,83.79,90156,65.0,39.9237,25.0763,25.0763,Underprediction
+Brazil,2,Ransomware,Education,80.5,279808,60.0,34.7132,25.2868,25.2868,Underprediction
+Brazil,1,Ransomware,Education,5.51,740421,59.0,34.6163,24.3837,24.3837,Underprediction
+Brazil,6,Ransomware,Government,74.01,956893,49.0,37.205,11.795,11.795,Underprediction
+Brazil,3,Ransomware,Healthcare,4.51,909979,65.0,36.0612,28.9388,28.9388,Underprediction
+Brazil,6,Ransomware,Healthcare,67.25,796351,21.0,35.6652,-14.6652,14.6652,Overprediction
+Brazil,2,Ransomware,IT,9.43,493087,44.0,39.5999,4.4001,4.4001,Underprediction
+Brazil,0,Ransomware,Retail,89.93,673959,39.0,36.7249,2.2751,2.2751,Underprediction
+Brazil,6,SQL Injection,Banking,50.61,772512,42.0,35.7503,6.2497,6.2497,Underprediction
+Brazil,9,SQL Injection,Banking,33.06,644841,64.0,35.1638,28.8362,28.8362,Underprediction
+Brazil,5,SQL Injection,Education,85.12,732802,62.0,34.316,27.684,27.684,Underprediction
+Brazil,1,SQL Injection,Education,16.24,238092,32.0,36.728,-4.728,4.728,Overprediction
+Brazil,9,SQL Injection,Healthcare,41.05,175957,69.0,38.229,30.771,30.771,Underprediction
+Brazil,7,SQL Injection,Healthcare,56.63,242677,21.0,37.0168,-16.0168,16.0168,Overprediction
+Brazil,6,SQL Injection,IT,34.32,673923,3.0,40.5182,-37.5182,37.5182,Overprediction
+Brazil,3,SQL Injection,IT,98.38,661583,30.0,37.2404,-7.2404,7.2404,Overprediction
+Brazil,9,SQL Injection,IT,53.71,680584,5.0,39.1848,-34.1848,34.1848,Overprediction
+Brazil,2,SQL Injection,IT,32.97,734737,30.0,37.2832,-7.2832,7.2832,Overprediction
+Brazil,3,SQL Injection,Retail,36.63,829742,57.0,38.8619,18.1381,18.1381,Underprediction
+Brazil,1,SQL Injection,Retail,40.29,206598,45.0,37.3755,7.6245,7.6245,Underprediction
+Brazil,2,SQL Injection,Telecommunications,24.05,446378,59.0,40.0624,18.9376,18.9376,Underprediction
+Brazil,2,SQL Injection,Telecommunications,4.35,809757,61.0,38.2921,22.7079,22.7079,Underprediction
+Brazil,1,SQL Injection,Telecommunications,13.94,832297,69.0,37.9144,31.0856,31.0856,Underprediction
+China,7,DDoS,Education,18.49,20680,29.0,34.1098,-5.1098,5.1098,Overprediction
+China,2,DDoS,Government,57.34,171772,8.0,36.3123,-28.3123,28.3123,Overprediction
+China,8,DDoS,Government,53.46,374484,46.0,39.1766,6.8234,6.8234,Underprediction
+China,5,DDoS,Healthcare,6.32,682445,20.0,34.7781,-14.7781,14.7781,Overprediction
+China,1,DDoS,Healthcare,63.15,500521,27.0,34.0794,-7.0794,7.0794,Overprediction
+China,9,DDoS,Healthcare,53.53,371685,34.0,36.0635,-2.0635,2.0635,Overprediction
+China,9,DDoS,Healthcare,11.92,557016,34.0,35.362,-1.362,1.362,Overprediction
+China,1,DDoS,IT,71.75,816710,60.0,36.6627,23.3373,23.3373,Underprediction
+China,7,DDoS,IT,88.61,777010,34.0,36.9648,-2.9648,2.9648,Overprediction
+China,1,DDoS,IT,18.96,122866,46.0,38.9709,7.0291,7.0291,Underprediction
+China,9,DDoS,IT,61.42,412245,48.0,36.2253,11.7747,11.7747,Underprediction
+China,1,DDoS,Telecommunications,97.83,699791,2.0,35.2634,-33.2634,33.2634,Overprediction
+China,7,Malware,Banking,21.87,741153,66.0,37.1364,28.8636,28.8636,Underprediction
+China,6,Malware,Education,42.26,615849,44.0,38.6091,5.3909,5.3909,Underprediction
+China,2,Malware,Education,47.46,783239,41.0,36.9942,4.0058,4.0058,Underprediction
+China,3,Malware,Education,62.82,580609,29.0,36.7639,-7.7639,7.7639,Overprediction
+China,9,Malware,Government,1.17,281616,6.0,41.9205,-35.9205,35.9205,Overprediction
+China,4,Malware,Retail,79.37,863510,2.0,39.1727,-37.1727,37.1727,Overprediction
+China,9,Malware,Retail,34.49,897277,55.0,39.4986,15.5014,15.5014,Underprediction
+China,7,Malware,Telecommunications,34.33,571265,17.0,40.5122,-23.5122,23.5122,Overprediction
+China,3,Man-in-the-Middle,Banking,9.77,881294,3.0,39.5425,-36.5425,36.5425,Overprediction
+China,6,Man-in-the-Middle,Banking,33.3,935265,20.0,37.3862,-17.3862,17.3862,Overprediction
+China,7,Man-in-the-Middle,Banking,12.36,987115,55.0,36.369,18.631,18.631,Underprediction
+China,8,Man-in-the-Middle,Education,10.55,12970,32.0,36.855,-4.855,4.855,Overprediction
+China,9,Man-in-the-Middle,Government,56.26,196531,45.0,40.3978,4.6022,4.6022,Underprediction
+China,3,Man-in-the-Middle,Healthcare,11.74,430760,63.0,38.5921,24.4079,24.4079,Underprediction
+China,2,Man-in-the-Middle,Retail,30.38,29840,63.0,39.7417,23.2583,23.2583,Underprediction
+China,1,Man-in-the-Middle,Retail,82.52,217938,69.0,37.4429,31.5571,31.5571,Underprediction
+China,9,Man-in-the-Middle,Telecommunications,53.59,4913,61.0,40.8859,20.1141,20.1141,Underprediction
+China,5,Phishing,Education,33.69,943680,46.0,36.8257,9.1743,9.1743,Underprediction
+China,2,Phishing,Government,38.87,168075,52.0,39.3291,12.6709,12.6709,Underprediction
+China,1,Phishing,IT,7.73,800480,31.0,37.4924,-6.4924,6.4924,Overprediction
+China,9,Phishing,IT,24.92,852327,44.0,37.9026,6.0974,6.0974,Underprediction
+China,0,Phishing,Retail,14.72,914743,69.0,38.1146,30.8854,30.8854,Underprediction
+China,7,Phishing,Retail,33.69,338578,38.0,38.1344,-0.1344,0.1344,Overprediction
+China,2,Phishing,Retail,45.83,395251,33.0,38.5705,-5.5705,5.5705,Overprediction
+China,9,Phishing,Telecommunications,9.45,501864,12.0,41.0666,-29.0666,29.0666,Overprediction
+China,4,Phishing,Telecommunications,88.67,493675,29.0,37.8937,-8.8937,8.8937,Overprediction
+China,9,Ransomware,Banking,72.18,277175,72.0,34.9528,37.0472,37.0472,Underprediction
+China,6,Ransomware,Education,21.9,304804,53.0,37.028,15.972,15.972,Underprediction
+China,7,Ransomware,Education,70.44,164734,7.0,36.4901,-29.4901,29.4901,Overprediction
+China,9,Ransomware,Government,72.61,595380,10.0,40.1683,-30.1683,30.1683,Overprediction
+China,4,Ransomware,Government,15.42,555153,11.0,38.3803,-27.3803,27.3803,Overprediction
+China,9,Ransomware,Healthcare,42.26,685837,68.0,37.3476,30.6524,30.6524,Underprediction
+China,0,Ransomware,IT,86.82,748040,18.0,35.3894,-17.3894,17.3894,Overprediction
+China,3,Ransomware,Retail,35.08,42831,42.0,38.2087,3.7913,3.7913,Underprediction
+China,4,Ransomware,Retail,62.19,295961,71.0,39.4088,31.5912,31.5912,Underprediction
+China,3,Ransomware,Telecommunications,58.28,300898,18.0,39.2129,-21.2129,21.2129,Overprediction
+China,7,SQL Injection,Banking,1.16,297461,15.0,37.1387,-22.1387,22.1387,Overprediction
+China,5,SQL Injection,Banking,80.98,708357,49.0,34.6869,14.3131,14.3131,Underprediction
+China,2,SQL Injection,Banking,29.39,206897,18.0,36.0185,-18.0185,18.0185,Overprediction
+China,9,SQL Injection,Banking,58.32,777684,31.0,36.7066,-5.7066,5.7066,Overprediction
+China,9,SQL Injection,Education,18.45,947933,10.0,36.7528,-26.7528,26.7528,Overprediction
+China,3,SQL Injection,Healthcare,76.4,966102,1.0,37.2057,-36.2057,36.2057,Overprediction
+China,6,SQL Injection,Healthcare,57.2,328454,10.0,37.7054,-27.7054,27.7054,Overprediction
+China,9,SQL Injection,IT,36.27,237068,65.0,39.6904,25.3096,25.3096,Underprediction
+China,5,SQL Injection,IT,89.38,923489,66.0,38.634,27.366,27.366,Underprediction
+China,2,SQL Injection,Retail,61.83,129677,60.0,40.1659,19.8341,19.8341,Underprediction
+China,0,SQL Injection,Telecommunications,75.91,605020,43.0,40.1271,2.8729,2.8729,Underprediction
+France,1,DDoS,Banking,77.29,120341,45.0,32.7991,12.2009,12.2009,Underprediction
+France,4,DDoS,Education,66.65,47104,5.0,33.6439,-28.6439,28.6439,Overprediction
+France,7,DDoS,Education,31.51,452360,65.0,33.0177,31.9823,31.9823,Underprediction
+France,3,DDoS,Government,27.44,978683,35.0,36.6213,-1.6213,1.6213,Overprediction
+France,5,DDoS,Government,44.16,840796,5.0,35.6505,-30.6505,30.6505,Overprediction
+France,1,DDoS,Government,82.49,351330,57.0,34.7589,22.2411,22.2411,Underprediction
+France,2,DDoS,Healthcare,39.49,195459,14.0,34.0256,-20.0256,20.0256,Overprediction
+France,7,DDoS,Healthcare,6.48,727601,50.0,34.3738,15.6262,15.6262,Underprediction
+France,8,DDoS,Healthcare,58.37,599797,35.0,36.5734,-1.5734,1.5734,Overprediction
+France,2,DDoS,Healthcare,5.07,65117,3.0,33.1267,-30.1267,30.1267,Overprediction
+France,5,DDoS,IT,52.09,362499,4.0,36.7769,-32.7769,32.7769,Overprediction
+France,9,DDoS,IT,48.01,922258,64.0,34.5874,29.4126,29.4126,Underprediction
+France,4,DDoS,Telecommunications,52.94,192293,57.0,34.6868,22.3132,22.3132,Underprediction
+France,2,Malware,Banking,40.87,719537,23.0,35.7899,-12.7899,12.7899,Overprediction
+France,2,Malware,Education,3.21,342049,31.0,38.0044,-7.0044,7.0044,Overprediction
+France,2,Malware,Healthcare,41.37,783899,29.0,38.0392,-9.0392,9.0392,Overprediction
+France,7,Malware,Healthcare,20.33,794906,36.0,36.4402,-0.4402,0.4402,Overprediction
+France,3,Malware,IT,59.56,450313,26.0,37.7945,-11.7945,11.7945,Overprediction
+France,2,Malware,Telecommunications,96.63,389525,32.0,37.0728,-5.0728,5.0728,Overprediction
+France,6,Man-in-the-Middle,Banking,4.94,71156,34.0,35.3272,-1.3272,1.3272,Overprediction
+France,2,Man-in-the-Middle,Education,49.94,640572,51.0,35.1431,15.8569,15.8569,Underprediction
+France,2,Man-in-the-Middle,Education,76.35,517640,4.0,36.9104,-32.9104,32.9104,Overprediction
+France,1,Man-in-the-Middle,Education,33.45,779870,6.0,34.0401,-28.0401,28.0401,Overprediction
+France,0,Man-in-the-Middle,Education,17.94,808798,60.0,34.5091,25.4909,25.4909,Underprediction
+France,8,Man-in-the-Middle,Education,87.39,307155,28.0,36.5413,-8.5413,8.5413,Overprediction
+France,9,Man-in-the-Middle,Retail,60.4,774913,43.0,38.4039,4.5961,4.5961,Underprediction
+France,4,Man-in-the-Middle,Telecommunications,75.99,561713,31.0,38.5397,-7.5397,7.5397,Overprediction
+France,2,Phishing,Banking,15.14,276541,16.0,35.5083,-19.5083,19.5083,Overprediction
+France,7,Phishing,Banking,69.99,366596,65.0,33.9068,31.0932,31.0932,Underprediction
+France,0,Phishing,Banking,95.72,551812,69.0,32.2107,36.7893,36.7893,Underprediction
+France,3,Phishing,Banking,89.77,134364,63.0,32.9394,30.0606,30.0606,Underprediction
+France,8,Phishing,Education,37.38,978508,42.0,32.6226,9.3774,9.3774,Underprediction
+France,1,Phishing,Education,37.57,380995,60.0,32.9943,27.0057,27.0057,Underprediction
+France,4,Phishing,Education,81.47,597542,11.0,32.8861,-21.8861,21.8861,Overprediction
+France,0,Phishing,Government,41.88,913027,68.0,38.0846,29.9154,29.9154,Underprediction
+France,2,Phishing,Healthcare,4.87,388325,39.0,35.3542,3.6458,3.6458,Underprediction
+France,9,Phishing,Healthcare,59.79,906160,48.0,35.1849,12.8151,12.8151,Underprediction
+France,1,Phishing,IT,33.33,51723,23.0,35.5698,-12.5698,12.5698,Overprediction
+France,2,Phishing,IT,55.9,309259,3.0,36.6836,-33.6836,33.6836,Overprediction
+France,6,Phishing,IT,76.02,573328,10.0,36.7671,-26.7671,26.7671,Overprediction
+France,4,Phishing,IT,55.31,526220,2.0,35.9847,-33.9847,33.9847,Overprediction
+France,1,Phishing,IT,78.12,770227,20.0,34.7882,-14.7882,14.7882,Overprediction
+France,9,Phishing,IT,64.54,255689,54.0,35.5069,18.4931,18.4931,Underprediction
+France,4,Phishing,Telecommunications,28.88,96640,60.0,35.7832,24.2168,24.2168,Underprediction
+France,1,Ransomware,Education,25.55,883536,66.0,37.536,28.464,28.464,Underprediction
+France,7,Ransomware,Education,59.0,131307,46.0,35.2445,10.7555,10.7555,Underprediction
+France,3,Ransomware,Government,2.79,443730,39.0,36.8946,2.1054,2.1054,Underprediction
+France,4,Ransomware,Government,57.9,264088,28.0,36.5488,-8.5488,8.5488,Overprediction
+France,1,Ransomware,IT,55.99,724608,21.0,36.0789,-15.0789,15.0789,Overprediction
+France,5,Ransomware,IT,21.11,568832,12.0,34.6961,-22.6961,22.6961,Overprediction
+France,6,Ransomware,Retail,76.83,189999,57.0,37.0604,19.9396,19.9396,Underprediction
+France,5,Ransomware,Telecommunications,10.52,253094,19.0,39.8316,-20.8316,20.8316,Overprediction
+France,6,SQL Injection,Banking,62.9,577763,43.0,35.8242,7.1758,7.1758,Underprediction
+France,8,SQL Injection,Banking,48.1,360752,21.0,34.4936,-13.4936,13.4936,Overprediction
+France,0,SQL Injection,Education,65.83,691903,54.0,34.6847,19.3153,19.3153,Underprediction
+France,7,SQL Injection,Government,68.53,812679,67.0,37.2948,29.7052,29.7052,Underprediction
+France,7,SQL Injection,Healthcare,27.06,999545,47.0,36.6897,10.3103,10.3103,Underprediction
+France,9,SQL Injection,Healthcare,31.91,931787,15.0,38.0777,-23.0777,23.0777,Overprediction
+France,2,SQL Injection,Healthcare,18.75,436009,44.0,36.2325,7.7675,7.7675,Underprediction
+France,0,SQL Injection,IT,43.86,72222,64.0,34.5101,29.4899,29.4899,Underprediction
+France,1,SQL Injection,Telecommunications,47.19,554448,31.0,37.6178,-6.6178,6.6178,Overprediction
+France,6,SQL Injection,Telecommunications,52.67,434504,46.0,37.8058,8.1942,8.1942,Underprediction
+Germany,5,DDoS,Government,32.71,846169,59.0,37.1241,21.8759,21.8759,Underprediction
+Germany,7,DDoS,IT,78.18,987652,72.0,35.6241,36.3759,36.3759,Underprediction
+Germany,6,DDoS,IT,73.5,806210,5.0,32.9595,-27.9595,27.9595,Overprediction
+Germany,3,DDoS,Retail,80.85,148209,54.0,33.3617,20.6383,20.6383,Underprediction
+Germany,7,DDoS,Retail,21.45,32346,38.0,37.2702,0.7298,0.7298,Underprediction
+Germany,4,DDoS,Telecommunications,52.17,481252,48.0,34.908,13.092,13.092,Underprediction
+Germany,3,DDoS,Telecommunications,70.0,702285,46.0,36.8509,9.1491,9.1491,Underprediction
+Germany,2,DDoS,Telecommunications,84.38,724629,18.0,37.5208,-19.5208,19.5208,Overprediction
+Germany,7,DDoS,Telecommunications,20.55,239313,6.0,35.9009,-29.9009,29.9009,Overprediction
+Germany,3,DDoS,Telecommunications,15.14,834902,63.0,33.0978,29.9022,29.9022,Underprediction
+Germany,1,Malware,Banking,84.54,517353,41.0,33.6798,7.3202,7.3202,Underprediction
+Germany,8,Malware,Banking,70.19,791366,61.0,35.6,25.4,25.4,Underprediction
+Germany,2,Malware,Healthcare,8.53,676384,44.0,36.015,7.985,7.985,Underprediction
+Germany,8,Malware,Retail,71.05,61238,41.0,39.4689,1.5311,1.5311,Underprediction
+Germany,6,Man-in-the-Middle,Banking,14.45,292854,14.0,37.1839,-23.1839,23.1839,Overprediction
+Germany,3,Man-in-the-Middle,Banking,23.32,524693,63.0,36.4439,26.5561,26.5561,Underprediction
+Germany,8,Man-in-the-Middle,Healthcare,75.8,943724,58.0,38.5093,19.4907,19.4907,Underprediction
+Germany,5,Man-in-the-Middle,Retail,46.07,32499,14.0,36.2611,-22.2611,22.2611,Overprediction
+Germany,7,Man-in-the-Middle,Telecommunications,92.88,521871,6.0,36.9298,-30.9298,30.9298,Overprediction
+Germany,2,Phishing,Banking,69.85,253058,44.0,33.7053,10.2947,10.2947,Underprediction
+Germany,3,Phishing,Banking,11.39,969684,41.0,33.0837,7.9163,7.9163,Underprediction
+Germany,4,Phishing,Education,10.04,679314,39.0,34.801,4.199,4.199,Underprediction
+Germany,9,Phishing,Government,90.21,510657,62.0,36.2312,25.7688,25.7688,Underprediction
+Germany,5,Phishing,Healthcare,69.2,162807,4.0,36.9854,-32.9854,32.9854,Overprediction
+Germany,9,Phishing,Healthcare,84.53,189430,1.0,33.2835,-32.2835,32.2835,Overprediction
+Germany,9,Phishing,Healthcare,66.73,540773,15.0,36.424,-21.424,21.424,Overprediction
+Germany,9,Phishing,IT,2.85,951767,10.0,35.3049,-25.3049,25.3049,Overprediction
+Germany,5,Phishing,Retail,78.84,733304,19.0,34.2382,-15.2382,15.2382,Overprediction
+Germany,0,Phishing,Telecommunications,47.04,124250,64.0,36.8123,27.1877,27.1877,Underprediction
+Germany,1,Ransomware,Education,24.4,908906,46.0,34.4278,11.5722,11.5722,Underprediction
+Germany,4,Ransomware,Government,58.6,76066,8.0,39.2727,-31.2727,31.2727,Overprediction
+Germany,3,Ransomware,Government,89.36,184748,4.0,36.8715,-32.8715,32.8715,Overprediction
+Germany,2,Ransomware,Healthcare,32.0,175755,30.0,33.0205,-3.0205,3.0205,Overprediction
+Germany,0,Ransomware,Healthcare,58.91,801948,55.0,34.7629,20.2371,20.2371,Underprediction
+Germany,6,Ransomware,IT,25.85,176331,25.0,34.6686,-9.6686,9.6686,Overprediction
+Germany,5,Ransomware,IT,54.65,107180,68.0,34.9464,33.0536,33.0536,Underprediction
+Germany,5,Ransomware,IT,65.2,306799,61.0,35.0046,25.9954,25.9954,Underprediction
+Germany,2,Ransomware,Telecommunications,49.56,119598,43.0,37.6524,5.3476,5.3476,Underprediction
+Germany,1,Ransomware,Telecommunications,93.93,198764,40.0,35.6683,4.3317,4.3317,Underprediction
+Germany,9,Ransomware,Telecommunications,17.92,155170,15.0,37.1645,-22.1645,22.1645,Overprediction
+Germany,4,SQL Injection,Banking,77.65,989592,49.0,32.9084,16.0916,16.0916,Underprediction
+Germany,7,SQL Injection,Banking,52.91,619669,19.0,35.5393,-16.5393,16.5393,Overprediction
+Germany,6,SQL Injection,Education,1.62,61463,58.0,34.7757,23.2243,23.2243,Underprediction
+Germany,6,SQL Injection,Education,55.5,693497,56.0,35.6332,20.3668,20.3668,Underprediction
+Germany,3,SQL Injection,Education,84.27,399014,52.0,33.1655,18.8345,18.8345,Underprediction
+Germany,5,SQL Injection,Education,87.84,842506,19.0,32.7607,-13.7607,13.7607,Overprediction
+Germany,0,SQL Injection,Government,87.71,1579,55.0,39.4323,15.5677,15.5677,Underprediction
+Germany,7,SQL Injection,IT,58.35,730850,27.0,37.2221,-10.2221,10.2221,Overprediction
+Germany,2,SQL Injection,IT,33.79,772541,46.0,37.1998,8.8002,8.8002,Underprediction
+Germany,7,SQL Injection,IT,68.63,294981,3.0,37.008,-34.008,34.008,Overprediction
+Germany,5,SQL Injection,Retail,76.04,759384,22.0,38.3227,-16.3227,16.3227,Overprediction
+Germany,7,SQL Injection,Telecommunications,29.02,859311,47.0,38.1727,8.8273,8.8273,Underprediction
+Germany,1,SQL Injection,Telecommunications,48.77,169455,23.0,36.6834,-13.6834,13.6834,Overprediction
+India,4,DDoS,Banking,58.96,891815,19.0,30.1916,-11.1916,11.1916,Overprediction
+India,2,DDoS,Government,76.71,246205,30.0,35.2346,-5.2346,5.2346,Overprediction
+India,7,DDoS,Healthcare,12.01,254980,58.0,36.2263,21.7737,21.7737,Underprediction
+India,9,DDoS,Healthcare,4.08,488599,11.0,32.9547,-21.9547,21.9547,Overprediction
+India,2,DDoS,IT,70.09,417831,36.0,34.8478,1.1522,1.1522,Underprediction
+India,2,DDoS,Retail,82.17,593329,62.0,37.0889,24.9111,24.9111,Underprediction
+India,3,DDoS,Telecommunications,47.5,423071,69.0,35.5567,33.4433,33.4433,Underprediction
+India,0,Malware,Banking,34.51,970056,30.0,35.8052,-5.8052,5.8052,Overprediction
+India,3,Malware,Education,41.28,197323,47.0,35.0408,11.9592,11.9592,Underprediction
+India,6,Malware,Education,65.87,357399,2.0,34.0474,-32.0474,32.0474,Overprediction
+India,7,Malware,Government,27.09,979810,34.0,37.0423,-3.0423,3.0423,Overprediction
+India,9,Malware,Government,56.13,629293,69.0,37.0818,31.9182,31.9182,Underprediction
+India,5,Malware,IT,84.43,999542,15.0,36.5505,-21.5505,21.5505,Overprediction
+India,0,Malware,Telecommunications,1.52,913114,15.0,38.9363,-23.9363,23.9363,Overprediction
+India,1,Man-in-the-Middle,Banking,15.28,995025,52.0,33.3956,18.6044,18.6044,Underprediction
+India,5,Man-in-the-Middle,Education,39.15,963367,50.0,34.2211,15.7789,15.7789,Underprediction
+India,4,Man-in-the-Middle,Education,27.45,633466,16.0,34.8899,-18.8899,18.8899,Overprediction
+India,3,Man-in-the-Middle,Healthcare,94.6,7347,7.0,36.2319,-29.2319,29.2319,Overprediction
+India,0,Man-in-the-Middle,Healthcare,29.54,837320,14.0,34.698,-20.698,20.698,Overprediction
+India,6,Man-in-the-Middle,Retail,40.94,698921,72.0,34.44,37.56,37.56,Underprediction
+India,9,Man-in-the-Middle,Retail,30.59,619881,42.0,37.3728,4.6272,4.6272,Underprediction
+India,6,Man-in-the-Middle,Telecommunications,71.64,416077,39.0,36.8253,2.1747,2.1747,Underprediction
+India,1,Man-in-the-Middle,Telecommunications,42.88,934333,60.0,37.2919,22.7081,22.7081,Underprediction
+India,7,Man-in-the-Middle,Telecommunications,73.24,943689,32.0,35.8612,-3.8612,3.8612,Overprediction
+India,3,Phishing,Banking,71.58,31733,49.0,35.0348,13.9652,13.9652,Underprediction
+India,8,Phishing,Education,9.95,317488,46.0,33.6894,12.3106,12.3106,Underprediction
+India,8,Phishing,IT,88.71,337377,23.0,36.2869,-13.2869,13.2869,Overprediction
+India,6,Phishing,IT,37.1,713949,71.0,37.122,33.878,33.878,Underprediction
+India,3,Phishing,IT,69.03,282139,37.0,36.933,0.067,0.067,Underprediction
+India,2,Phishing,IT,53.95,920801,52.0,33.7214,18.2786,18.2786,Underprediction
+India,7,Phishing,IT,37.76,800909,53.0,34.1684,18.8316,18.8316,Underprediction
+India,8,Phishing,Retail,53.07,589348,4.0,35.3236,-31.3236,31.3236,Overprediction
+India,1,Phishing,Retail,59.36,967614,71.0,36.4275,34.5725,34.5725,Underprediction
+India,4,Phishing,Telecommunications,75.23,141627,64.0,37.8356,26.1644,26.1644,Underprediction
+India,1,Ransomware,Banking,93.74,339815,58.0,30.6804,27.3196,27.3196,Underprediction
+India,0,Ransomware,Banking,81.81,41635,37.0,33.5447,3.4553,3.4553,Underprediction
+India,8,Ransomware,Banking,57.15,704230,71.0,32.904,38.096,38.096,Underprediction
+India,0,Ransomware,Education,96.03,898251,70.0,32.0911,37.9089,37.9089,Underprediction
+India,7,Ransomware,Education,57.52,170002,54.0,35.4698,18.5302,18.5302,Underprediction
+India,3,Ransomware,Government,43.11,11241,4.0,36.308,-32.308,32.308,Overprediction
+India,3,Ransomware,Healthcare,11.57,144533,67.0,33.4318,33.5682,33.5682,Underprediction
+India,5,Ransomware,Healthcare,10.46,32616,63.0,34.8701,28.1299,28.1299,Underprediction
+India,5,Ransomware,IT,70.91,403494,3.0,34.6358,-31.6358,31.6358,Overprediction
+India,2,Ransomware,Retail,69.91,340928,61.0,33.744,27.256,27.256,Underprediction
+India,8,Ransomware,Retail,4.32,217534,48.0,37.057,10.943,10.943,Underprediction
+India,1,Ransomware,Retail,9.53,89719,68.0,33.8063,34.1937,34.1937,Underprediction
+India,8,SQL Injection,Banking,48.53,421083,28.0,36.5554,-8.5554,8.5554,Overprediction
+India,4,SQL Injection,Banking,68.44,186842,40.0,33.5407,6.4593,6.4593,Underprediction
+India,4,SQL Injection,Education,95.54,862718,44.0,33.205,10.795,10.795,Underprediction
+India,3,SQL Injection,Education,52.05,874254,11.0,33.0585,-22.0585,22.0585,Overprediction
+India,3,SQL Injection,Education,77.02,424342,57.0,32.8429,24.1571,24.1571,Underprediction
+India,7,SQL Injection,Education,0.83,977791,15.0,32.6523,-17.6523,17.6523,Overprediction
+India,9,SQL Injection,Government,28.13,244429,8.0,39.0269,-31.0269,31.0269,Overprediction
+India,2,SQL Injection,Government,40.98,402855,26.0,37.3906,-11.3906,11.3906,Overprediction
+India,5,SQL Injection,Government,99.72,604113,7.0,35.3813,-28.3813,28.3813,Overprediction
+India,6,SQL Injection,Government,75.25,597509,20.0,35.2055,-15.2055,15.2055,Overprediction
+India,3,SQL Injection,Government,18.44,27344,1.0,36.8824,-35.8824,35.8824,Overprediction
+India,3,SQL Injection,Healthcare,47.15,98266,18.0,33.9188,-15.9188,15.9188,Overprediction
+India,7,SQL Injection,Healthcare,77.3,826937,64.0,35.2973,28.7027,28.7027,Underprediction
+India,6,SQL Injection,IT,98.09,826976,57.0,35.3375,21.6625,21.6625,Underprediction
+India,6,SQL Injection,Retail,85.69,172469,16.0,34.4837,-18.4837,18.4837,Overprediction
+India,9,SQL Injection,Telecommunications,10.24,213393,49.0,36.0879,12.9121,12.9121,Underprediction
+Japan,6,DDoS,Banking,32.84,311274,67.0,34.7365,32.2635,32.2635,Underprediction
+Japan,5,DDoS,Education,99.83,10859,66.0,34.2802,31.7198,31.7198,Underprediction
+Japan,2,DDoS,Healthcare,54.41,344772,5.0,38.1982,-33.1982,33.1982,Overprediction
+Japan,2,DDoS,Healthcare,90.38,316136,22.0,35.835,-13.835,13.835,Overprediction
+Japan,1,DDoS,Healthcare,10.62,625954,71.0,34.8407,36.1593,36.1593,Underprediction
+Japan,7,DDoS,Healthcare,9.5,387457,61.0,34.2393,26.7607,26.7607,Underprediction
+Japan,5,DDoS,Retail,37.81,482700,55.0,37.9727,17.0273,17.0273,Underprediction
+Japan,2,Malware,Banking,9.76,122728,7.0,36.765,-29.765,29.765,Overprediction
+Japan,7,Malware,Education,53.04,570494,53.0,38.054,14.946,14.946,Underprediction
+Japan,9,Malware,Government,34.03,78149,30.0,38.0236,-8.0236,8.0236,Overprediction
+Japan,6,Malware,Healthcare,77.84,783976,62.0,34.8775,27.1225,27.1225,Underprediction
+Japan,0,Malware,Healthcare,27.92,775042,12.0,36.4994,-24.4994,24.4994,Overprediction
+Japan,6,Malware,Retail,30.53,333238,20.0,38.2294,-18.2294,18.2294,Overprediction
+Japan,2,Malware,Retail,74.01,750473,41.0,37.1262,3.8738,3.8738,Underprediction
+Japan,8,Malware,Telecommunications,67.77,871255,24.0,40.2707,-16.2707,16.2707,Overprediction
+Japan,1,Malware,Telecommunications,4.84,936738,8.0,37.4352,-29.4352,29.4352,Overprediction
+Japan,0,Malware,Telecommunications,28.8,915532,68.0,38.349,29.651,29.651,Underprediction
+Japan,9,Malware,Telecommunications,71.18,37870,31.0,39.4414,-8.4414,8.4414,Overprediction
+Japan,9,Malware,Telecommunications,49.88,437357,56.0,38.4923,17.5077,17.5077,Underprediction
+Japan,6,Man-in-the-Middle,Healthcare,55.4,68886,41.0,37.8934,3.1066,3.1066,Underprediction
+Japan,9,Man-in-the-Middle,Healthcare,72.08,261230,19.0,37.3683,-18.3683,18.3683,Overprediction
+Japan,4,Man-in-the-Middle,IT,42.34,130309,56.0,38.8387,17.1613,17.1613,Underprediction
+Japan,9,Man-in-the-Middle,Retail,12.62,970866,13.0,37.3034,-24.3034,24.3034,Overprediction
+Japan,1,Man-in-the-Middle,Retail,58.77,172346,51.0,37.7842,13.2158,13.2158,Underprediction
+Japan,0,Man-in-the-Middle,Telecommunications,79.88,104759,12.0,39.8011,-27.8011,27.8011,Overprediction
+Japan,2,Man-in-the-Middle,Telecommunications,21.8,610106,39.0,37.5699,1.4301,1.4301,Underprediction
+Japan,3,Phishing,Education,3.6,598297,49.0,35.0817,13.9183,13.9183,Underprediction
+Japan,0,Phishing,Education,2.43,552342,62.0,34.6977,27.3023,27.3023,Underprediction
+Japan,5,Phishing,Education,49.17,218097,32.0,34.8295,-2.8295,2.8295,Overprediction
+Japan,5,Phishing,Government,32.39,442923,57.0,36.8208,20.1792,20.1792,Underprediction
+Japan,4,Phishing,Government,73.35,706019,65.0,36.7084,28.2916,28.2916,Underprediction
+Japan,3,Phishing,Healthcare,25.66,518357,42.0,33.9452,8.0548,8.0548,Underprediction
+Japan,9,Phishing,IT,91.71,47841,23.0,36.2709,-13.2709,13.2709,Overprediction
+Japan,3,Phishing,IT,72.01,401960,44.0,37.8077,6.1923,6.1923,Underprediction
+Japan,8,Phishing,Retail,55.7,53447,43.0,39.4084,3.5916,3.5916,Underprediction
+Japan,2,Phishing,Telecommunications,89.85,44385,18.0,37.577,-19.577,19.577,Overprediction
+Japan,2,Ransomware,Banking,50.75,53111,15.0,34.9398,-19.9398,19.9398,Overprediction
+Japan,8,Ransomware,Healthcare,33.66,410385,71.0,35.5637,35.4363,35.4363,Underprediction
+Japan,7,Ransomware,IT,73.1,346939,21.0,36.0716,-15.0716,15.0716,Overprediction
+Japan,5,Ransomware,IT,79.52,934400,4.0,36.0861,-32.0861,32.0861,Overprediction
+Japan,8,Ransomware,Retail,95.3,986882,45.0,36.1825,8.8175,8.8175,Underprediction
+Japan,2,Ransomware,Retail,59.13,747705,47.0,38.4282,8.5718,8.5718,Underprediction
+Japan,7,Ransomware,Retail,71.26,440529,20.0,35.561,-15.561,15.561,Overprediction
+Japan,8,Ransomware,Retail,28.77,983880,54.0,37.7886,16.2114,16.2114,Underprediction
+Japan,2,SQL Injection,Banking,66.81,966993,64.0,36.0865,27.9135,27.9135,Underprediction
+Japan,9,SQL Injection,Education,82.52,788243,38.0,35.9409,2.0591,2.0591,Underprediction
+Japan,0,SQL Injection,Education,61.87,244406,43.0,35.0655,7.9345,7.9345,Underprediction
+Japan,3,SQL Injection,Education,60.57,468399,56.0,35.4661,20.5339,20.5339,Underprediction
+Japan,8,SQL Injection,Government,13.51,772948,43.0,38.8784,4.1216,4.1216,Underprediction
+Japan,8,SQL Injection,Healthcare,45.38,172628,4.0,35.829,-31.829,31.829,Overprediction
+Japan,3,SQL Injection,IT,69.19,33209,66.0,39.9733,26.0267,26.0267,Underprediction
+Japan,0,SQL Injection,IT,36.98,452892,17.0,36.187,-19.187,19.187,Overprediction
+Japan,4,SQL Injection,Retail,86.79,214195,54.0,36.5667,17.4333,17.4333,Underprediction
+Japan,0,SQL Injection,Retail,70.88,43366,43.0,36.665,6.335,6.335,Underprediction
+Russia,0,DDoS,Banking,40.64,259321,62.0,31.1696,30.8304,30.8304,Underprediction
+Russia,9,DDoS,Education,19.5,325634,5.0,30.2245,-25.2245,25.2245,Overprediction
+Russia,0,DDoS,Healthcare,20.92,807631,56.0,29.8841,26.1159,26.1159,Underprediction
+Russia,1,DDoS,Healthcare,90.94,326955,21.0,31.8234,-10.8234,10.8234,Overprediction
+Russia,8,DDoS,IT,86.81,717258,16.0,34.0627,-18.0627,18.0627,Overprediction
+Russia,1,Malware,Banking,3.6,661377,66.0,33.1398,32.8602,32.8602,Underprediction
+Russia,3,Malware,Government,59.01,309230,61.0,36.964,24.036,24.036,Underprediction
+Russia,1,Malware,Government,66.19,91194,72.0,38.7458,33.2542,33.2542,Underprediction
+Russia,1,Malware,Government,37.07,138915,44.0,36.7596,7.2404,7.2404,Underprediction
+Russia,6,Malware,Government,51.05,262500,27.0,36.9119,-9.9119,9.9119,Overprediction
+Russia,7,Malware,Healthcare,34.32,554162,33.0,33.8145,-0.8145,0.8145,Overprediction
+Russia,0,Malware,Healthcare,63.09,80855,53.0,34.8468,18.1532,18.1532,Underprediction
+Russia,8,Malware,IT,47.22,404004,58.0,34.8997,23.1003,23.1003,Underprediction
+Russia,8,Malware,IT,98.07,608695,31.0,37.4987,-6.4987,6.4987,Overprediction
+Russia,4,Malware,IT,71.92,500655,8.0,35.7712,-27.7712,27.7712,Overprediction
+Russia,1,Malware,Retail,61.39,415274,40.0,34.9695,5.0305,5.0305,Underprediction
+Russia,3,Malware,Telecommunications,89.79,900723,32.0,34.9823,-2.9823,2.9823,Overprediction
+Russia,3,Malware,Telecommunications,8.11,737958,35.0,35.94,-0.94,0.94,Overprediction
+Russia,2,Man-in-the-Middle,Banking,66.53,45277,43.0,32.1179,10.8821,10.8821,Underprediction
+Russia,5,Man-in-the-Middle,IT,21.72,870019,5.0,36.0158,-31.0158,31.0158,Overprediction
+Russia,7,Man-in-the-Middle,IT,34.57,46493,62.0,37.1159,24.8841,24.8841,Underprediction
+Russia,0,Man-in-the-Middle,IT,95.04,566542,58.0,32.4355,25.5645,25.5645,Underprediction
+Russia,5,Man-in-the-Middle,Telecommunications,10.12,405253,52.0,38.365,13.635,13.635,Underprediction
+Russia,2,Phishing,Banking,94.15,963192,7.0,31.6001,-24.6001,24.6001,Overprediction
+Russia,7,Phishing,Education,33.49,68371,57.0,32.9175,24.0825,24.0825,Underprediction
+Russia,0,Phishing,Government,24.06,867302,55.0,33.3162,21.6838,21.6838,Underprediction
+Russia,1,Phishing,Healthcare,13.91,600700,28.0,33.1164,-5.1164,5.1164,Overprediction
+Russia,3,Phishing,Telecommunications,39.15,814119,64.0,33.4628,30.5372,30.5372,Underprediction
+Russia,9,Phishing,Telecommunications,21.22,446028,37.0,35.1913,1.8087,1.8087,Underprediction
+Russia,8,Ransomware,Banking,42.14,222293,38.0,33.3595,4.6405,4.6405,Underprediction
+Russia,9,Ransomware,Banking,80.29,507258,30.0,31.1632,-1.1632,1.1632,Overprediction
+Russia,3,Ransomware,Education,22.77,828880,69.0,34.5483,34.4517,34.4517,Underprediction
+Russia,2,Ransomware,Education,95.08,679860,66.0,31.0215,34.9785,34.9785,Underprediction
+Russia,2,Ransomware,Healthcare,16.77,924837,62.0,34.8633,27.1367,27.1367,Underprediction
+Russia,8,Ransomware,Healthcare,15.08,677971,51.0,33.7577,17.2423,17.2423,Underprediction
+Russia,9,Ransomware,Healthcare,98.25,877571,19.0,31.9016,-12.9016,12.9016,Overprediction
+Russia,7,Ransomware,IT,41.08,529025,42.0,36.8101,5.1899,5.1899,Underprediction
+Russia,0,Ransomware,Retail,84.08,71334,26.0,35.8038,-9.8038,9.8038,Overprediction
+Russia,0,Ransomware,Telecommunications,64.68,716832,67.0,35.1888,31.8112,31.8112,Underprediction
+Russia,5,Ransomware,Telecommunications,48.68,459635,49.0,36.1174,12.8826,12.8826,Underprediction
+Russia,2,SQL Injection,Banking,33.84,442940,7.0,34.8671,-27.8671,27.8671,Overprediction
+Russia,8,SQL Injection,Education,75.63,195733,70.0,31.54,38.46,38.46,Underprediction
+Russia,5,SQL Injection,Government,10.46,778573,62.0,35.5825,26.4175,26.4175,Underprediction
+Russia,2,SQL Injection,Healthcare,67.13,198285,56.0,34.8491,21.1509,21.1509,Underprediction
+Russia,7,SQL Injection,Telecommunications,1.99,652682,46.0,35.5185,10.4815,10.4815,Underprediction
+Russia,8,SQL Injection,Telecommunications,79.71,358439,48.0,36.999,11.001,11.001,Underprediction
+Russia,8,SQL Injection,Telecommunications,48.84,680011,66.0,37.1982,28.8018,28.8018,Underprediction
+Russia,9,SQL Injection,Telecommunications,17.21,677688,31.0,35.2717,-4.2717,4.2717,Overprediction
+UK,8,DDoS,Banking,81.26,547495,3.0,33.3143,-30.3143,30.3143,Overprediction
+UK,7,DDoS,Education,79.6,446296,4.0,34.6489,-30.6489,30.6489,Overprediction
+UK,9,DDoS,Government,68.83,60379,32.0,39.0018,-7.0018,7.0018,Overprediction
+UK,2,DDoS,Government,15.63,663812,57.0,36.2293,20.7707,20.7707,Underprediction
+UK,5,DDoS,Government,78.32,624619,67.0,36.2678,30.7322,30.7322,Underprediction
+UK,8,DDoS,Healthcare,69.14,685927,58.0,36.8636,21.1364,21.1364,Underprediction
+UK,9,DDoS,Healthcare,58.31,487694,41.0,34.9017,6.0983,6.0983,Underprediction
+UK,6,DDoS,IT,67.12,581923,63.0,36.8496,26.1504,26.1504,Underprediction
+UK,7,DDoS,IT,29.05,186700,37.0,35.014,1.986,1.986,Underprediction
+UK,1,DDoS,Retail,39.26,668780,33.0,35.7941,-2.7941,2.7941,Overprediction
+UK,9,DDoS,Retail,88.54,518181,24.0,35.773,-11.773,11.773,Overprediction
+UK,9,DDoS,Retail,14.09,655640,61.0,35.1127,25.8873,25.8873,Underprediction
+UK,5,DDoS,Retail,86.0,809209,26.0,34.8494,-8.8494,8.8494,Overprediction
+UK,7,DDoS,Telecommunications,50.9,645154,16.0,36.5313,-20.5313,20.5313,Overprediction
+UK,0,DDoS,Telecommunications,85.23,193852,54.0,36.4839,17.5161,17.5161,Underprediction
+UK,3,Malware,Education,60.13,878362,57.0,37.168,19.832,19.832,Underprediction
+UK,3,Malware,Healthcare,27.61,375245,20.0,37.2956,-17.2956,17.2956,Overprediction
+UK,3,Malware,Healthcare,19.79,805745,7.0,35.6551,-28.6551,28.6551,Overprediction
+UK,2,Malware,Healthcare,24.06,612319,47.0,36.4523,10.5477,10.5477,Underprediction
+UK,6,Malware,Healthcare,67.1,698852,57.0,35.6729,21.3271,21.3271,Underprediction
+UK,8,Malware,IT,49.13,116201,14.0,37.2824,-23.2824,23.2824,Overprediction
+UK,7,Malware,Retail,39.55,337363,2.0,38.6802,-36.6802,36.6802,Overprediction
+UK,3,Malware,Retail,73.18,404060,32.0,36.3615,-4.3615,4.3615,Overprediction
+UK,6,Malware,Telecommunications,77.18,347426,36.0,39.4204,-3.4204,3.4204,Overprediction
+UK,0,Man-in-the-Middle,Banking,64.88,976213,28.0,33.9972,-5.9972,5.9972,Overprediction
+UK,8,Man-in-the-Middle,Banking,24.28,998547,46.0,34.5088,11.4912,11.4912,Underprediction
+UK,6,Man-in-the-Middle,Education,40.98,414340,10.0,38.9402,-28.9402,28.9402,Overprediction
+UK,5,Man-in-the-Middle,Government,54.29,930468,35.0,39.5919,-4.5919,4.5919,Overprediction
+UK,0,Man-in-the-Middle,Government,69.96,675955,60.0,38.3403,21.6597,21.6597,Underprediction
+UK,7,Man-in-the-Middle,IT,66.25,303838,56.0,38.4274,17.5726,17.5726,Underprediction
+UK,2,Man-in-the-Middle,Telecommunications,43.82,213979,10.0,40.1851,-30.1851,30.1851,Overprediction
+UK,0,Man-in-the-Middle,Telecommunications,71.9,733671,20.0,38.4613,-18.4613,18.4613,Overprediction
+UK,5,Phishing,Banking,3.84,241282,55.0,35.4189,19.5811,19.5811,Underprediction
+UK,6,Phishing,Banking,88.38,281387,55.0,34.3656,20.6344,20.6344,Underprediction
+UK,4,Phishing,Banking,84.5,828382,4.0,35.031,-31.031,31.031,Overprediction
+UK,4,Phishing,Banking,60.07,197590,62.0,34.4718,27.5282,27.5282,Underprediction
+UK,2,Phishing,Banking,1.54,31262,56.0,33.3873,22.6127,22.6127,Underprediction
+UK,9,Phishing,Banking,66.65,170892,47.0,35.3599,11.6401,11.6401,Underprediction
+UK,4,Phishing,Education,99.45,467349,44.0,33.2929,10.7071,10.7071,Underprediction
+UK,1,Phishing,Education,9.84,628589,8.0,35.9245,-27.9245,27.9245,Overprediction
+UK,4,Phishing,Government,21.58,831367,55.0,37.2786,17.7214,17.7214,Underprediction
+UK,9,Phishing,Government,81.26,993903,25.0,35.4662,-10.4662,10.4662,Overprediction
+UK,5,Phishing,Healthcare,39.47,551014,71.0,34.3327,36.6673,36.6673,Underprediction
+UK,6,Phishing,IT,68.5,396839,60.0,37.3125,22.6875,22.6875,Underprediction
+UK,2,Phishing,IT,57.17,477292,18.0,36.5442,-18.5442,18.5442,Overprediction
+UK,0,Phishing,IT,24.17,64082,16.0,35.6414,-19.6414,19.6414,Overprediction
+UK,0,Phishing,Retail,77.58,270326,24.0,34.7034,-10.7034,10.7034,Overprediction
+UK,5,Phishing,Retail,25.1,986980,71.0,36.5725,34.4275,34.4275,Underprediction
+UK,1,Phishing,Retail,13.68,144856,13.0,37.6654,-24.6654,24.6654,Overprediction
+UK,7,Phishing,Telecommunications,62.8,758516,16.0,38.4649,-22.4649,22.4649,Overprediction
+UK,4,Phishing,Telecommunications,90.67,902952,8.0,35.251,-27.251,27.251,Overprediction
+UK,5,Ransomware,Banking,53.03,528708,14.0,34.4508,-20.4508,20.4508,Overprediction
+UK,5,Ransomware,Education,35.16,100749,62.0,34.0237,27.9763,27.9763,Underprediction
+UK,3,Ransomware,Government,6.6,152302,26.0,39.5391,-13.5391,13.5391,Overprediction
+UK,6,Ransomware,Government,97.5,755692,46.0,37.719,8.281,8.281,Underprediction
+UK,1,Ransomware,Government,83.67,701152,53.0,35.8158,17.1842,17.1842,Underprediction
+UK,0,Ransomware,Government,30.74,744505,43.0,38.4707,4.5293,4.5293,Underprediction
+UK,1,Ransomware,Healthcare,61.66,639896,63.0,36.5533,26.4467,26.4467,Underprediction
+UK,7,Ransomware,Healthcare,75.67,413293,27.0,36.5426,-9.5426,9.5426,Overprediction
+UK,4,Ransomware,IT,17.98,799372,14.0,38.5598,-24.5598,24.5598,Overprediction
+UK,0,Ransomware,IT,75.49,534962,59.0,34.6811,24.3189,24.3189,Underprediction
+UK,8,Ransomware,IT,86.23,82321,47.0,35.6603,11.3397,11.3397,Underprediction
+UK,1,Ransomware,Retail,59.44,964115,48.0,36.736,11.264,11.264,Underprediction
+UK,3,Ransomware,Retail,28.98,981029,42.0,34.9054,7.0946,7.0946,Underprediction
+UK,4,Ransomware,Retail,63.45,354024,33.0,36.1301,-3.1301,3.1301,Overprediction
+UK,1,Ransomware,Telecommunications,11.83,365116,66.0,37.8061,28.1939,28.1939,Underprediction
+UK,5,SQL Injection,Banking,73.69,522097,63.0,35.6785,27.3215,27.3215,Underprediction
+UK,5,SQL Injection,Banking,40.31,760892,22.0,36.8394,-14.8394,14.8394,Overprediction
+UK,6,SQL Injection,IT,80.05,682480,14.0,39.1974,-25.1974,25.1974,Overprediction
+UK,7,SQL Injection,IT,32.17,379954,9.0,38.7628,-29.7628,29.7628,Overprediction
+UK,4,SQL Injection,IT,78.84,464960,24.0,38.4444,-14.4444,14.4444,Overprediction
+UK,5,SQL Injection,Retail,69.91,354637,63.0,37.7069,25.2931,25.2931,Underprediction
+UK,8,SQL Injection,Telecommunications,30.19,833840,6.0,39.8742,-33.8742,33.8742,Overprediction
+UK,8,SQL Injection,Telecommunications,78.9,716114,63.0,36.4246,26.5754,26.5754,Underprediction
+USA,2,DDoS,Banking,98.07,276199,28.0,32.4067,-4.4067,4.4067,Overprediction
+USA,5,DDoS,Banking,99.81,948174,4.0,33.894,-29.894,29.894,Overprediction
+USA,3,DDoS,Banking,31.54,513005,62.0,33.7392,28.2608,28.2608,Underprediction
+USA,5,DDoS,Education,52.7,541631,30.0,34.7779,-4.7779,4.7779,Overprediction
+USA,5,DDoS,Government,10.54,741592,69.0,37.4677,31.5323,31.5323,Underprediction
+USA,2,DDoS,Government,98.73,17805,31.0,35.1244,-4.1244,4.1244,Overprediction
+USA,1,DDoS,Healthcare,93.14,947960,55.0,32.3176,22.6824,22.6824,Underprediction
+USA,1,DDoS,Healthcare,27.08,551900,17.0,34.79,-17.79,17.79,Overprediction
+USA,0,DDoS,IT,45.91,772018,46.0,35.3648,10.6352,10.6352,Underprediction
+USA,5,DDoS,IT,96.08,156275,24.0,35.4982,-11.4982,11.4982,Overprediction
+USA,7,DDoS,IT,74.59,281698,18.0,35.7182,-17.7182,17.7182,Overprediction
+USA,3,DDoS,IT,26.29,943039,28.0,35.2156,-7.2156,7.2156,Overprediction
+USA,4,DDoS,Retail,18.76,411707,42.0,36.373,5.627,5.627,Underprediction
+USA,7,DDoS,Retail,32.53,235314,62.0,36.2777,25.7223,25.7223,Underprediction
+USA,0,DDoS,Retail,76.95,391982,46.0,34.1736,11.8264,11.8264,Underprediction
+USA,9,DDoS,Telecommunications,15.53,298385,11.0,40.5527,-29.5527,29.5527,Overprediction
+USA,1,Malware,Banking,36.2,194553,48.0,37.7885,10.2115,10.2115,Underprediction
+USA,2,Malware,Education,78.38,516103,62.0,38.0268,23.9732,23.9732,Underprediction
+USA,2,Malware,Education,13.14,681956,35.0,35.652,-0.652,0.652,Overprediction
+USA,4,Malware,Education,1.05,93580,21.0,38.4982,-17.4982,17.4982,Overprediction
+USA,2,Malware,Government,56.74,976007,59.0,38.7623,20.2377,20.2377,Underprediction
+USA,3,Malware,IT,26.31,709153,45.0,38.5573,6.4427,6.4427,Underprediction
+USA,2,Malware,IT,75.53,992377,33.0,38.8315,-5.8315,5.8315,Overprediction
+USA,0,Malware,Retail,84.7,542283,64.0,37.7086,26.2914,26.2914,Underprediction
+USA,7,Malware,Retail,7.65,864358,11.0,41.5851,-30.5851,30.5851,Overprediction
+USA,2,Malware,Telecommunications,81.19,362085,5.0,38.0402,-33.0402,33.0402,Overprediction
+USA,0,Man-in-the-Middle,Education,37.18,270984,28.0,35.5049,-7.5049,7.5049,Overprediction
+USA,9,Man-in-the-Middle,Education,53.59,810539,22.0,34.8389,-12.8389,12.8389,Overprediction
+USA,6,Man-in-the-Middle,Education,36.06,48987,58.0,36.573,21.427,21.427,Underprediction
+USA,6,Man-in-the-Middle,Education,51.43,640851,11.0,36.3362,-25.3362,25.3362,Overprediction
+USA,2,Man-in-the-Middle,Healthcare,54.54,892665,31.0,38.9947,-7.9947,7.9947,Overprediction
+USA,2,Man-in-the-Middle,Retail,74.57,502149,29.0,38.4932,-9.4932,9.4932,Overprediction
+USA,0,Man-in-the-Middle,Retail,24.93,448426,36.0,36.7915,-0.7915,0.7915,Overprediction
+USA,7,Man-in-the-Middle,Retail,75.51,298887,44.0,38.0103,5.9897,5.9897,Underprediction
+USA,8,Man-in-the-Middle,Retail,81.16,691638,17.0,37.4082,-20.4082,20.4082,Overprediction
+USA,5,Man-in-the-Middle,Telecommunications,15.63,209853,1.0,38.8238,-37.8238,37.8238,Overprediction
+USA,2,Phishing,Banking,96.27,637264,11.0,37.6639,-26.6639,26.6639,Overprediction
+USA,0,Phishing,Education,41.36,291727,31.0,34.4396,-3.4396,3.4396,Overprediction
+USA,4,Phishing,Education,97.32,849084,62.0,34.4945,27.5055,27.5055,Underprediction
+USA,3,Phishing,Government,38.83,333027,19.0,39.0411,-20.0411,20.0411,Overprediction
+USA,9,Phishing,IT,87.42,979700,49.0,35.7489,13.2511,13.2511,Underprediction
+USA,2,Phishing,IT,48.96,480386,18.0,35.825,-17.825,17.825,Overprediction
+USA,3,Phishing,Retail,36.85,852789,4.0,37.6311,-33.6311,33.6311,Overprediction
+USA,5,Phishing,Retail,99.64,464717,27.0,35.8941,-8.8941,8.8941,Overprediction
+USA,2,Phishing,Retail,15.24,599197,8.0,37.2423,-29.2423,29.2423,Overprediction
+USA,0,Ransomware,Government,13.92,366147,38.0,38.0886,-0.0886,0.0886,Overprediction
+USA,8,Ransomware,Government,93.34,999635,24.0,35.5035,-11.5035,11.5035,Overprediction
+USA,7,Ransomware,Government,33.71,135105,48.0,39.8746,8.1254,8.1254,Underprediction
+USA,3,Ransomware,Healthcare,87.42,80926,19.0,38.0764,-19.0764,19.0764,Overprediction
+USA,1,Ransomware,Healthcare,99.19,745103,8.0,36.9813,-28.9813,28.9813,Overprediction
+USA,9,Ransomware,IT,16.61,912183,44.0,35.6512,8.3488,8.3488,Underprediction
+USA,5,Ransomware,Retail,16.33,850758,9.0,37.9313,-28.9313,28.9313,Overprediction
+USA,0,Ransomware,Retail,74.68,498089,18.0,35.3035,-17.3035,17.3035,Overprediction
+USA,5,Ransomware,Retail,38.02,419557,2.0,35.3115,-33.3115,33.3115,Overprediction
+USA,5,Ransomware,Telecommunications,56.37,667436,11.0,38.0942,-27.0942,27.0942,Overprediction
+USA,6,Ransomware,Telecommunications,3.63,231198,42.0,39.4081,2.5919,2.5919,Underprediction
+USA,1,Ransomware,Telecommunications,99.88,999508,23.0,38.4245,-15.4245,15.4245,Overprediction
+USA,6,Ransomware,Telecommunications,91.94,710953,9.0,36.0675,-27.0675,27.0675,Overprediction
+USA,2,SQL Injection,Banking,9.08,895507,52.0,35.9154,16.0846,16.0846,Underprediction
+USA,8,SQL Injection,Education,77.96,164892,63.0,34.3597,28.6403,28.6403,Underprediction
+USA,4,SQL Injection,Education,78.12,36804,30.0,34.8619,-4.8619,4.8619,Overprediction
+USA,7,SQL Injection,Government,98.46,429452,6.0,38.2613,-32.2613,32.2613,Overprediction
+USA,8,SQL Injection,Government,89.46,59398,8.0,39.5124,-31.5124,31.5124,Overprediction
+USA,3,SQL Injection,Government,99.49,755576,23.0,38.2416,-15.2416,15.2416,Overprediction
+USA,1,SQL Injection,Healthcare,98.03,719415,56.0,36.6808,19.3192,19.3192,Underprediction
+USA,0,SQL Injection,Retail,26.98,763017,24.0,36.5119,-12.5119,12.5119,Overprediction
+USA,9,SQL Injection,Retail,86.29,457411,34.0,37.6908,-3.6908,3.6908,Overprediction
+USA,4,SQL Injection,Telecommunications,57.4,51312,26.0,39.0265,-13.0265,13.0265,Overprediction

@@ -1,0 +1,5 @@
+cluster_id,risk_profile,profile_description,incident_count,average_financial_loss_million,average_affected_users,average_resolution_hours
+0,Widespread Lower-Loss Incidents,High user impact with comparatively lower financial loss,715,23.65,759248.26,36.83
+1,Concentrated High-Loss Incidents,High financial loss with comparatively lower user impact,740,75.4,249791.59,36.43
+2,Lower-Impact Incidents,Comparatively lower financial loss and lower user impact,759,26.44,256617.68,36.35
+3,Critical High-Impact Incidents,High financial loss combined with high user impact,786,74.68,752635.25,36.32
