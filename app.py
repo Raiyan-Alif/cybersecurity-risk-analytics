@@ -62,7 +62,7 @@ INPUT_OPTIONS_PATH = (
 # Later, this can be replaced with the Render URL.
 API_URL = os.getenv(
     "API_URL",
-    "http://127.0.0.1:8000"
+    "https://raiyan-alif-cybersecurity-risk-analytics.onrender.com"
 ).rstrip("/")
 
 
